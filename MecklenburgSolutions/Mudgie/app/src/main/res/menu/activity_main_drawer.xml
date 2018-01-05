@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/ic_menu_calendar"
+            android:title="@string/menu_calendar" />
+        <item
+            android:id="@+id/nav_recipes"
+            android:icon="@drawable/ic_menu_recipes"
+            android:title="@string/menu_recipes" />
+        <item
+            android:id="@+id/nav_restaurants"
+            android:checkable="false"
+            android:icon="@drawable/ic_menu_restaurants"
+            android:title="@string/menu_restaurants" />
+        <item
+            android:id="@+id/nav_shopping_lists"
+            android:icon="@drawable/ic_menu_shopping_list"
+            android:title="@string/menu_shopping_lists" />
+        <item
+            android:id="@+id/nav_notes"
+            android:icon="@drawable/ic_menu_note"
+            android:title="@string/menu_notes" />
+    </group>
+
+    <item android:title="@string/menu_communication">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

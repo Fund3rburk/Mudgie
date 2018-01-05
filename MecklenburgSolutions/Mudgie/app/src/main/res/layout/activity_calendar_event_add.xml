@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mecklenburgsolutions.mudgie.CalendarEventAddActivity">
+
+    <LinearLayout
+        android:id="@+id/calendar_event_attr_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <AutoCompleteTextView
+            android:id="@+id/calendar_add_desc_entry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Description" />
+
+        <EditText
+            android:id="@+id/calendar_add_date_entry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date" />
+
+        <EditText
+            android:id="@+id/calendar_add_time_entry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="time" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/calendar_event_save_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/calendar_event_attr_layout">
+
+        <Button
+            android:id="@+id/calendar_event_save_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Event" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Mudgie</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="main_content_welcome_text">Welcome to Mudgie!</string>
+    <string name="nav_menu_header">The Mudgie Manager</string>
+    <string name="menu_calendar">Calendar</string>
+    <string name="menu_recipes">Recipes</string>
+    <string name="menu_shopping_lists">Shopping Lists</string>
+    <string name="menu_restaurants">Restaurants</string>
+    <string name="menu_notes">Notes</string>
+    <string name="title_activity_calendar">Calendar</string>
+    <string name="menu_communication">Share With Friends</string>
+</resources>

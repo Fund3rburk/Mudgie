@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- dimensions for calendar. -->
+    <dimen name="calendar_marginTop">35dp</dimen>
+    <dimen name="calendar_marginLeft">20dp</dimen>
+    <dimen name="calendar_marginRight">20dp</dimen>
+    <dimen name="calendar_calendar_banner_paddingBottom">20dp</dimen>
+    <dimen name="calendar_content_marginLeft">25dp</dimen>
+</resources>
