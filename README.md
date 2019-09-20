@@ -1,0 +1,4 @@
+# Mudgie
+
+#SHA256 eicar hash
+131f95c51cc819465fa1797f6ccacf9d494aaaff46fa3eac73ae63ffbdfd8267
